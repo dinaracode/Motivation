@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1516112173450-2e73c1acc637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh; 
+    }
+
+#btn{ 
+    background-color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Ibarra Real Nova', serif;
+    position:fixed;
+    }
+    
+#par{
+    display: none;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 28px;
+    background-color: rgba(101, 83, 83, 0.82);
+    margin-top: 500px;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 70%;
+    color: white;
+    }
+    
+    @media all and (max-width:800px){
+        #btn{
+            margin-bottom: 400px;
+        }
+        #par{
+            margin-bottom: 300px;
+        }
+    }
+
+    @media all and (max-width: 500px){
+        #btn{
+            background-color: white;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 30px;
+            border: none;
+        }
+
+        #par{
+            font-size: 20px;
+        margin-top: 300px;
+        padding: 20px;
+        }
+    }
